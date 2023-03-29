@@ -58,7 +58,7 @@ def clean_data(df):
     return df
 
 
-ef save_data(df, database_filename):
+def save_data(df, database_filename):
     """
     Save the cleaned dataset to a sqlite database
     
