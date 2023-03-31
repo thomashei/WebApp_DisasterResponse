@@ -33,3 +33,21 @@ Exports the final model as a pickle file
 In the Python script, run.py, once you pass the file paths of database and model as needed, the app allows you to input a new message and get classification results in several categories. 
 
 The web app will also display visualizations of the data. On top of the visual which is already provided, we added extra visuals to show the relationship between message categories and genres, and also the top 20 word count of disaster messages.
+
+## File Descriptions
+
+- app
+| - template
+| |- master.html  # main page of web app
+| |- go.html  # classification result page of web app
+|- run.py  # Flask file that runs app
+
+- data
+|- disaster_categories.csv  # data to process 
+|- disaster_messages.csv  # data to process
+|- process_data.py
+|- InsertDatabaseName.db   # database to save clean data to
+
+- models
+|- train_classifier.py
+|- classifier.pkl  # saved model 
