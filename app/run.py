@@ -128,7 +128,7 @@ def index():
                 'x': 0.5,
                 'xanchor': 'center',
                 'yanchor': 'top',
-                'pad': {'b': 20},
+                'pad': {'b': 30},
             },
             'xaxis': {
                 'title': 'Category',
@@ -137,7 +137,7 @@ def index():
             'yaxis': {
                 'title': 'Genre',
             },
-            'margin': {'b': 200},
+            'margin': {'b': 250},
         }
     },
     {
