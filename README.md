@@ -65,8 +65,6 @@ Run the following commands in the project's root directory to set up your databa
 ### 2. To run ML pipeline that trains classifier and saves
     `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
 
-
-Then go to `app` directory: `cd app`
-
 ### 3. Run your web app: 
+    Go to `app` directory: `cd app` and run:
     `python run.py`
