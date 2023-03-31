@@ -72,3 +72,8 @@ and run: `python run.py`
 
 Finally go to http://0.0.0.0:3001/
 
+## Warning about Class Imbalance
+It is important to note that the dataset used for this project is imbalanced, meaning that some categories have a significantly smaller number of messages compared to others. This can lead to bias in the model's predictions towards the more common categories. To address this issue, we have used scikit-learn's class_weight parameter to give more weight to the minority classes during model training. However, this may not completely solve the problem, and it is recommended that further steps be taken to address class imbalance, such as resampling techniques or collecting more data for the underrepresented categories.
+
+## Licensing, Authors, Acknowledgements
+This app was completed as part of the Udacity Data Scientist Nanodegree. Code templates and data were provided by Udacity. The data was originally sourced by Udacity from Appen (formally Figure 8) .
