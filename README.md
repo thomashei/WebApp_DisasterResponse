@@ -66,5 +66,6 @@ Run the following commands in the project's root directory to set up your databa
     `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
 
 ### 3. Run your web app: 
-   Go to `app` directory: `cd app` and run:
-    `python run.py`
+Go to `app` directory: `cd app` and run:
+
+   `python run.py`
