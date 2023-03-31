@@ -34,20 +34,21 @@ In the Python script, run.py, once you pass the file paths of database and model
 
 The web app will also display visualizations of the data. On top of the visual which is already provided, we added extra visuals to show the relationship between message categories and genres, and also the top 20 word count of disaster messages.
 
-## File Descriptions
+## File structure and description
 
-- app
-| - template
-| |- master.html  # main page of web app
-| |- go.html  # classification result page of web app
-|- run.py  # Flask file that runs app
+| Directory/File | Description |
+|---|---|
+| app/ | Contains the Flask web application code |
+| app/template/ | Contains the HTML templates for the web application |
+| app/template/master.html | The main page of the web app |
+| app/template/go.html | The classification result page of the web app |
+| app/run.py | Flask file that runs the web app |
+| data/ | Contains the raw data and the ETL pipeline code |
+| data/disaster_categories.csv | Data to process - categories for the messages |
+| data/disaster_messages.csv | Data to process - messages |
+| data/process_data.py | Python script for the ETL pipeline |
+| data/InsertDatabaseName.db | The SQLite database to store the cleaned data |
+| models/ | Contains the machine learning pipeline code |
+| models/train_classifier.py | Python script for the machine learning pipeline |
+| models/classifier.pkl | The saved model file |
 
-- data
-|- disaster_categories.csv  # data to process 
-|- disaster_messages.csv  # data to process
-|- process_data.py
-|- InsertDatabaseName.db   # database to save clean data to
-
-- models
-|- train_classifier.py
-|- classifier.pkl  # saved model 
