@@ -69,3 +69,5 @@ Run the following commands in the project's root directory to set up your databa
 Go to app directory: cd app
 
 and run: `python run.py`
+
+Go to http://0.0.0.0:3001/
