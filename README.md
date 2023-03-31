@@ -37,18 +37,18 @@ The web app will also display visualizations of the data. On top of the visual w
 ## File structure and description
 
 | Directory/File | Description |
-|---|---|
-| app/ | Contains the Flask web application code |
-| app/template/ | Contains the HTML templates for the web application |
-| app/template/master.html | The main page of the web app |
-| app/template/go.html | The classification result page of the web app |
-| app/run.py | Flask file that runs the web app |
-| data/ | Contains the raw data and the ETL pipeline code |
-| data/disaster_categories.csv | Data to process - categories for the messages |
-| data/disaster_messages.csv | Data to process - messages |
-| data/process_data.py | Python script for the ETL pipeline |
-| data/InsertDatabaseName.db | The SQLite database to store the cleaned data |
-| models/ | Contains the machine learning pipeline code |
-| models/train_classifier.py | Python script for the machine learning pipeline |
-| models/classifier.pkl | The saved model file |
+| --- | --- |
+| app/ | Directory containing Flask application |
+| app/template/ | Directory containing HTML templates |
+| app/template/master.html | Main page of web app |
+| app/template/go.html | Classification result page of web app |
+| app/run.py | Flask file that runs app |
+| data/ | Directory containing data files |
+| data/disaster_categories.csv | Data to process |
+| data/disaster_messages.csv | Data to process |
+| data/process_data.py | Python script for ETL pipeline |
+| data/InsertDatabaseName.db | SQLite database to save clean data to |
+| models/ | Directory containing machine learning models |
+| models/train_classifier.py | Python script for machine learning pipeline |
+| models/classifier.pkl | Saved model |
 
