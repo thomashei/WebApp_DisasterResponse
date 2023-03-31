@@ -26,13 +26,10 @@ In the Python script, train_classifier.py, we wrote a machine learning pipeline 
 Loads data from the SQLite database
 Splits the dataset into training and test sets
 Builds a text processing and machine learning pipeline
-Trains and tunes a model using GridSearchCV
 Outputs results on the test set
 Exports the final model as a pickle file
 
 ### 3. Flask Web App
-We provided much of the Flask web app, but we added extra features to show off our knowledge of Flask, HTML, CSS, and JavaScript. For this part, we did the following:
+In the Python script, run.py, once you pass the file paths of database and model as needed, the app allows you to input a new message and get classification results in several categories. 
 
-Modified file paths for database and model as needed
-Added data visualizations using Plotly in the web app
-Created two additional data visualizations based on data extracted from the SQLite database
+The web app will also display visualizations of the data. On top of the visual which is already provided, we added extra visuals to show the relationship between message categories and genres, and also the top 20 word count of disaster messages.
