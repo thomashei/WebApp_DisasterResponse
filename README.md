@@ -11,6 +11,7 @@ The project has three main components:
 2. ML Pipeline
 3. Flask Web App
 
+
 ## Project Components
 ### 1. ETL Pipeline
 In the Python script, process_data.py, we wrote a data cleaning pipeline that:
@@ -34,6 +35,7 @@ In the Python script, run.py, once you pass the file paths of database and model
 
 The web app will also display visualizations of the data. On top of the visual which is already provided, we added extra visuals to show the relationship between message categories and genres, and also the top 20 word count of disaster messages.
 
+
 ## File structure and description
 
 | Directory/File | Description |
@@ -52,3 +54,17 @@ The web app will also display visualizations of the data. On top of the visual w
 | models/train_classifier.py | Python script for machine learning pipeline |
 | models/classifier.pkl | Saved model |
 
+
+## How to run
+
+Run the following commands in the project's root directory to set up your database and model.
+
+### 1.To run ETL pipeline that cleans data and stores in database
+    `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
+       
+### 2.To run ML pipeline that trains classifier and saves
+    `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
+
+Then go to `app` directory: `cd app`
+
+### 3. Run your web app: `python run.py`
