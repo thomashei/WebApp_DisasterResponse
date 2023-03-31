@@ -7,9 +7,9 @@ Our project includes a web app where an emergency worker can input a new message
 
 The project has three main components:
 
-ETL Pipeline
-ML Pipeline
-Flask Web App
+1. ETL Pipeline
+2. ML Pipeline
+3. Flask Web App
 
 ## Project Components
 ### 1. ETL Pipeline
