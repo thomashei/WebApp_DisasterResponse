@@ -50,10 +50,9 @@ The web app will also display visualizations of the data. On top of the visual w
 | data/disaster_categories.csv | Data to process |
 | data/disaster_messages.csv | Data to process |
 | data/process_data.py | Python script for ETL pipeline |
-| data/InsertDatabaseName.db | SQLite database to save clean data to |
+| data/DisasterResponse.db | SQLite database to save clean data to |
 | models/ | Directory containing machine learning models |
 | models/train_classifier.py | Python script for machine learning pipeline |
-| models/classifier.pkl | Saved model |
 
 
 ## How to run
