@@ -4,7 +4,7 @@
 
 In this project, we will analyze disaster data from Appen to build a model for an API that classifies disaster messages. The dataset contains real messages that were sent during disaster events, and our goal is to create a machine learning pipeline to categorize these events so that we can send the messages to an appropriate disaster relief agency.
 
-Our project includes a web app where an emergency worker can input a new message and get classification results in several categories. The web app will also display visualizations of the data. This project will show off our software skills, including our ability to create basic data pipelines and write clean, organized code!
+Our project includes a web app where an emergency worker can input a new message and get classification results in several categories. The web app will also display visualizations of the data.
 
 The project has three main components:
 
