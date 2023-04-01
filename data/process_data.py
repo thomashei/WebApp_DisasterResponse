@@ -47,6 +47,9 @@ def clean_data(df):
     # Convert category values to numeric
     for column in categories:
         categories[column] = categories[column].apply(lambda x: int(x[-1]))
+
+    # Remove rows with category values other than 0 and 1
+    categories = categories.loc[~(categories == 2).any(axis=1)]
     
     # Replace categories column in df with new category columns
     df.drop('categories', axis=1, inplace=True)
